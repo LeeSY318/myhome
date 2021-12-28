@@ -1,0 +1,104 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/common :: head('Hello, String Boot!')">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <title>Hello, String Boot!</title>
+</head>
+
+<body>
+    
+    <header>
+        <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" th:replace="fragments/common :: menu('home')">
+<!--            <div class="container-fluid">-->
+<!--                <a class="navbar-brand" href="#">String Boot Tutorial</a>-->
+<!--                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
+<!--                <div class="collapse navbar-collapse" id="navbarCollapse">-->
+<!--                    <ul class="navbar-nav mr-auto">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link active" aria-current="page" href="#">홈</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">게시판</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+        </nav>
+      </header>
+      
+      <!-- Begin page content -->
+      <main role="main" class="container">
+        <div class="starter-template">
+            <h1>String Boot Tutoriral</h1>
+            <p class="lead">String Boot를 이용해 웹페이지 제작<br>
+                             String Securty, JPA를 이용해 보안설정과 데이터 다루기</p>
+          <!-- <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+          <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
+          <p>Back to <a href="/docs/5.1/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p> -->
+        </div>
+      </main>
+<!--    <header>-->
+<!--        &lt;!&ndash; Fixed navbar &ndash;&gt;-->
+<!--        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">-->
+<!--          <div class="container-fluid">-->
+<!--              <a class="navbar-brand" href="#">String Boot Tutoral</a>-->
+<!--              <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                  <span class="navbar-toggle-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse" id="navbarExampleDefault">-->
+<!--              <ul class="navbar-nav mr-auto">-->
+<!--                <li class="nav-item active">-->
+<!--                  <a class="nav-link" href="#">홈<span calss="sr-only">(current)</span></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                  <a class="nav-link" href="#">게시판</a>-->
+<!--                </li>-->
+<!--&lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;                  <a class="nav-link disabled">Disabled</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                </li>&ndash;&gt;-->
+<!--              </ul>-->
+<!--&lt;!&ndash;              <form class="d-flex">&ndash;&gt;-->
+<!--&lt;!&ndash;                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">&ndash;&gt;-->
+<!--&lt;!&ndash;                <button class="btn btn-outline-success" type="submit">Search</button>&ndash;&gt;-->
+<!--&lt;!&ndash;              </form>&ndash;&gt;-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </nav>-->
+<!--      </header>-->
+<!--      -->
+<!--      &lt;!&ndash; Begin page content &ndash;&gt;-->
+<!--      <main role="main" class="container">-->
+<!--        <div class="cover">-->
+           <!-- <h1>String Boot Tutoriral</h1>-->
+           <!-- <p class="lead">String Boot를 이용해 웹페이지 제작<br> -->
+<!--                            String Securty, JPA를 이용해 보안설정</p>
+<!--        </div>  -->
+<!--      </main>-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
